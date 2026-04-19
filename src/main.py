@@ -45,6 +45,7 @@ CHIP_MIN_VER = {
     0x6020: "13.1",     # T6020, M2 Pro
     0x6021: "13.1",     # T6021, M2 Max
     0x6022: "13.4",     # T6022, M2 Ultra
+    0x6040: "13.5",     # T6040, M4 Pro  — FIXME: M4Pro-guess, set to 13.5 to match latest available IPSW
 }
 
 DEVICES = {
@@ -71,6 +72,7 @@ DEVICES = {
     "j475cap":  Device("13.4", False),  # Mac Studio (M2 Max, 2023)
     "j475dap":  Device("13.4", False),  # Mac Studio (M2 Ultra, 2023)
     "j180dap":  Device("13.4", False),  # Mac Pro (M2 Ultra, 2023)
+    "j773sap":  Device("13.5", True),   # Mac mini (M4 Pro, 2024) — FIXME: M4Pro, expert_only=True
 }
 
 IPSW_VERSIONS = [
