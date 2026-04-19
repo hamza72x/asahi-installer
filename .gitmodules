@@ -3,4 +3,5 @@
 	url = https://github.com/AsahiLinux/artwork.git
 [submodule "m1n1"]
 	path = m1n1
-	url = git@gh:hamza72x/m1n1.git
+	url = https://github.com/hamza72x/m1n1.git
+
